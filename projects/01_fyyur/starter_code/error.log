@@ -1,1 +1,67 @@
 
+2021-07-06 20:32:19,206 INFO: errors [in /Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/app.py:554]
+2021-07-06 20:32:23,929 ERROR: Exception on /venues/create [POST] [in /Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/app.py", line 252, in create_venue_submission
+    error = 2/0
+ZeroDivisionError: division by zero
+2021-07-06 20:32:47,333 ERROR: Exception on /venues/create [POST] [in /Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/app.py", line 252, in create_venue_submission
+    error = 2/0
+ZeroDivisionError: division by zero
+2021-07-06 20:34:22,012 ERROR: Exception on /venues/create [POST] [in /Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/app.py", line 252, in create_venue_submission
+    error = 2/0
+ZeroDivisionError: division by zero
+2021-07-06 20:34:23,459 ERROR: Exception on /venues/create [POST] [in /Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/app.py", line 252, in create_venue_submission
+    error = 2/0
+ZeroDivisionError: division by zero
+2021-07-06 20:34:34,494 ERROR: Exception on /venues/create [POST] [in /Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/env/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/mike/Documents/jus-nanodegree/project1/FSND/projects/01_fyyur/starter_code/app.py", line 252, in create_venue_submission
+    error = 2/0
+ZeroDivisionError: division by zero

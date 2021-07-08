@@ -7,6 +7,7 @@ from urllib.request import urlopen
 
 app = Flask(__name__)
 
+
 AUTH0_DOMAIN = @TODO_REPLACE_WITH_YOUR_DOMAIN
 ALGORITHMS = ['RS256']
 API_AUDIENCE = @TODO_REPLACE_WITH_YOUR_API_AUDIENCE
@@ -122,3 +123,7 @@ def requires_auth(f):
 def headers(payload):
     print(payload)
     return 'Access Granted'
+
+
+if __name__=='__main__':
+    app.run(debug=True)   
