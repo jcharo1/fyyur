@@ -1,5 +1,8 @@
 FROM python:stretch
 
+ARG PASS
+ENV PASS=${PASS}
+
 COPY . /app
 WORKDIR /app
 
