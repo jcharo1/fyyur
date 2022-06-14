@@ -43,3 +43,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/fyyur:latest
+          build-args: PASS=${{secrets.PASS}}
