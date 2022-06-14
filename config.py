@@ -9,5 +9,7 @@ DEBUG = True
 # Connect to the database
 
 
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:pr0t0TypingTheW0rld!@charo.gg:5432/fyyurrapp'
+password = os.getenv('PASS')
+SQLALCHEMY_DATABASE_URI = f'postgresql://postgres:{password}@charo.gg/fyyurrapp'
+
 
